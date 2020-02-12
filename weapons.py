@@ -1,5 +1,6 @@
 import sys
 
+
 class Axe:
 
     def __init__(self):
