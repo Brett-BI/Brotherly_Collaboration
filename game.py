@@ -1,11 +1,7 @@
 import sys
 import pygame
-# import pygame.freetype
-# import pygame.font
-
 from time import sleep
 from random import choice, randint
-
 import consumables
 import weapons
 from player import Player
@@ -15,7 +11,6 @@ from player import Player
 # create separate instances of player with specific names - set abilities based on names or types or something...
 # also import the user module 
 # make objects of weapons some how.
-# wuggob
 
 
 class GameSequence:
