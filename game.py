@@ -131,7 +131,7 @@ class GameSequence:
                             print(f"The computer hit you for {computer_attack_damage} damage!")
                             sleep(1)
                             self.player.remove_health(computer_attack_damage)
-                            print(f"You now have {self.player.get_health()} health remaning.")
+                            print(f"You now have {self.player.get_health()} health remaining.")
                             sleep(1)
 
                             if self.player.get_health() <= 0:
@@ -154,7 +154,7 @@ class GameSequence:
                     print(f"The computer hit you for {computer_attack_damage} damage!")
                     sleep(1)
                     self.user_remove_health(computer_attack_damage)
-                    print(f"You now have {player.get_health()} health remaning.")
+                    print(f"You now have {player.get_health()} health remaining.")
                     sleep(1)
 
                     if self.player.get_health() <= 0:
