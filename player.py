@@ -1,6 +1,3 @@
-import sys
-
-
 class Player:
 
     def __init__(self):

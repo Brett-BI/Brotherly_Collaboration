@@ -1,15 +1,13 @@
 from random import randint
 from time import sleep
 
-from player import Player
 
+class HealthPotion:
 
-class health_potion:
-    # wuggob
     def __init__(self):
-        print('Hello from joetions.')
+        print('Hello from Sector Z')
 
-    def use(target):
+    def use(self):
 
         while True:
 
@@ -19,10 +17,10 @@ class health_potion:
             if potion_use == "y":
                 potion_health = randint(10, 30)
                 # use the user class to add health here
-                target.add_health(potion_health)  # 10, 20, 25, 30, etc.
+                self.add_health(potion_health)  # 10, 20, 25, 30, etc.
                 print(f"You gained {potion_health} health.")
                 sleep(1)
-                print(f"You now have {target.get_health()} health.")
+                print(f"You now have {self.get_health()} health.")
                 sleep(1)
                 break
 
